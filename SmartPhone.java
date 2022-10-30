@@ -1,38 +1,47 @@
-public class SmartPhone extends Telephone {
-    
-    private String serial;
+package telephone;
+
+public class Smartphone extends Telephone {
 	
-	public SmartPhone(String phonenumber, String serial) {
+	protected String name;
+	
+	public Smartphone(String phonenumber, String name) {
 		super(phonenumber);
-		this.serial = serial;
+		this.name = name;
 	}
 	
-
-	public String getserial() {
-		return serial;
+	
+	public String getName() {
+		return name;
 	}
 
 
-	public void setserial(String serial) {
-		this.serial = serial;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 
-	@Override
-	public void call() {
-		System.out.printf("Calling %s through Phone %s%n", phonenumber, serial);
+	// @Override
+	// public void call() {
+	// 	System.out.printf("Calling %s from %s's phone%n", phonenumber, name);
 
-	}
+	// }
 
-	@Override
-	public void end() {
-		System.out.printf("End call %s through Phone %s%n", phonenumber, serial);
+	// @Override
+	// public void end() {
+	// 	System.out.printf("End call %s from %s's phone%n", phonenumber, name);
 
-	}
+	// }
 
     @Override
 	public void massage() {
-		System.out.printf("Massage from %s", phonenumber);
+		System.out.printf("%s Phone is ready to massage", name);
 
 	}
+
+	@Override
+	public void whatsapp() {
+		System.out.printf("%s Phone is ready to whatsapp", name);
+
+	}
+
 }

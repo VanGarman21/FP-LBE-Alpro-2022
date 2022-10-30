@@ -4,7 +4,7 @@ public abstract class Telephone {
 	public Telephone(String phonenumber) {
 		this.phonenumber = phonenumber;
 	}
-	public abstract void call();
-	public abstract void end();
+
 	public abstract void massage();
+	public abstract void whatsapp();
 }

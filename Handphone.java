@@ -1,8 +1,10 @@
-public class Handphone extends Telephone {
+package telephone;
+
+public class HandPhone extends Telephone {
 	
 	protected String name;
 	
-	public Handphone(String phonenumber, String name) {
+	public HandPhone(String phonenumber, String name) {
 		super(phonenumber);
 		this.name = name;
 	}
@@ -19,21 +21,14 @@ public class Handphone extends Telephone {
 
 
 	@Override
-	public void call() {
-		System.out.printf("Calling %s from %s's phone%n", phonenumber, name);
+	public void massage() {
+		System.out.printf("%s Phone is ready to massage", name);
 
 	}
 
 	@Override
-	public void end() {
-		System.out.printf("End call %s from %s's phone%n", phonenumber, name);
+	public void whatsapp() {
+		System.out.printf("%s Phone is not satisfied to using whatsapp", name);
 
 	}
-
-    @Override
-	public void massage() {
-		System.out.printf("Massage from %s", phonenumber);
-
-	}
-
 }

@@ -1,4 +1,8 @@
-public class iPhone extends Handphone {
+package Smartphone;
+
+import telephone.Smartphone;
+
+public class iPhone extends Smartphone {
 	
 	private String series_name;
 	
@@ -16,19 +20,15 @@ public class iPhone extends Handphone {
 	}
 	
 	@Override
-	public void call() {
-		System.out.printf("Calling %s (%s) from %s%n", phonenumber, name, series_name);
-	}
+	public void massage() {
+		System.out.printf("Massage %s from %s's phone%n", phonenumber, name);
 
+	}
 
 	@Override
-	public void end() {
-		System.out.printf("End call %s (%s) from %s%n", phonenumber, name, series_name);
-	}
-
-    @Override
-	public void massage() {
-		System.out.printf("Massage from %s", phonenumber);
+	public void whatsapp() {
+		System.out.printf("whatsapp %s from %s's phone%n", phonenumber, name);
 
 	}
+
 }
