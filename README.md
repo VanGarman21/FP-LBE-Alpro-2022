@@ -10,7 +10,7 @@
 - Gunakan nama *class* yang sudah ada sebagai tema dari project ini.
 
 Catatan: Program tidak harus dapat dijalankan, cukup ditunjukkan implementasi konsepnya saja.
-
+# 5025211054_M.Armand Giovani
 # Inheritance 
   Disini saya memiliki beberapa class antara lain :
 - Telephone sebagai superclass
