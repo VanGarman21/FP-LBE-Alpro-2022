@@ -20,18 +20,6 @@ public class Smartphone extends Telephone {
 	}
 
 
-	// @Override
-	// public void call() {
-	// 	System.out.printf("Calling %s from %s's phone%n", phonenumber, name);
-
-	// }
-
-	// @Override
-	// public void end() {
-	// 	System.out.printf("End call %s from %s's phone%n", phonenumber, name);
-
-	// }
-
     @Override
 	public void massage() {
 		System.out.printf("%s Phone is ready to massage", name);
