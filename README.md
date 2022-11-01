@@ -11,6 +11,8 @@
 
 Catatan: Program tidak harus dapat dijalankan, cukup ditunjukkan implementasi konsepnya saja.
 # 5025211054_M.Armand Giovani
+![Untitled](https://user-images.githubusercontent.com/100523471/199169224-05b38a18-79a6-4479-9100-b96a8a32f400.jpg)
+
 # Inheritance 
   Disini saya memiliki beberapa class antara lain :
 - Telephone sebagai superclass
